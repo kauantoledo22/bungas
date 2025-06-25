@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Navegaação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="theme-switch">
+            <div class="switch"></div>
+        </div>
+        <div class="navegation">
+            <ul>
+                <a href="index.html" class="active" target="_blank">Página Inicial</a>
+                <a href="https://github.com/JoaoMarceloGuastala09" target="_blank">Sobre</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="https://X.com" target="_blank">Twitter</a>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</body>
+</html>
